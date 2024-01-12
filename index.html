@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu perfil</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <ul>
+    <ul id="menu" class="menu li a menu_container">
         <li>
             <a href="index.html">Home</a>
         </li>
@@ -14,14 +15,37 @@
             <a href="contato.html">Contato</a>
         </li>
     </ul>
-    <h1>Sobre mim</h1> <!--Texto principal do nosso site-->
-    <p>
-        Tenho 24 anos e sou formado em radiologia. Atualmente, estou em processo de transição de carreira para a área de programação. Essa mudança reflete meu interesse crescente em tecnologia e desenvolvimento de software. Acredito que minha formação em radiologia pode oferecer uma perspectiva única, combinando conhecimentos técnicos com habilidades específicas da área da saúde. Estou animado com as oportunidades profissionais e os desafios que essa transição pode proporcionar, permitindo-me explorar novos horizontes e contribuir para projetos inovadores na área de programação.
-    </p>
-    <p>
-        Tenho o hobby de tocar contrabaixo. Essa atividade musical me proporciona uma forma especial de expressão artística, revelando meu interesse e talento na área da música, especialmente em instrumentos de cordas. Tocar contrabaixo permite que eu explore diversos estilos musicais e participe de projetos musicais variados. Além da satisfação pessoal que isso me traz, a prática desse hobby contribui para o meu desenvolvimento musical, proporcionando momentos de descontração e criatividade em minha vida.
-    </p>
-    <h2>Esse sou eu!!!!</h2>
-    <img src="./imagens/miha foto de perfil.jpeg" alt="Foto do criador desse conteúdo">
+    <h1 class="center">Sobre mim</h1> <!--Texto principal do nosso site-->
+    <div class="container"> 
+        <div class="p-30">
+            <p class="center">
+                Tenho 24 anos e sou formado em radiologia. Atualmente, estou em processo de transição de carreira para a área de programação. Essa mudança reflete meu interesse crescente em tecnologia e desenvolvimento de software. Acredito que minha formação em radiologia pode oferecer uma perspectiva única, combinando conhecimentos técnicos com habilidades específicas da área da saúde. Estou animado com as oportunidades profissionais e os desafios que essa transição pode proporcionar, permitindo-me explorar novos horizontes e contribuir para projetos inovadores na área de programação.
+            </p>
+            <p class="center">
+                Tenho o hobby de tocar contrabaixo. Essa atividade musical me proporciona uma forma especial de expressão artística, revelando meu interesse e talento na área da música, especialmente em instrumentos de cordas. Tocar contrabaixo permite que eu explore diversos estilos musicais e participe de projetos musicais variados. Além da satisfação pessoal que isso me traz, a prática desse hobby contribui para o meu desenvolvimento musical, proporcionando momentos de descontração e criatividade em minha vida.
+            </p>
+        </div>
+    <img class="br-50 wh-300 p-30" src="./assets/img/foto de perfil.jpeg" alt="Foto do criador desse conteúdo">
+        </div>
+    </div>
+    <div id="redes-sociais" class="social_container flex">
+        <a href="https://www.linkedin.com/in/vinicius-lima-7b3b23235/" target="_blank">
+            <img class="social_icon" src="./assets/img/linkedin.svg"
+                alt="Logo do LinkedIn" /> 
+        </a>
+        <a href="https://github.com/vinysl" target="_blank">
+            <img class="social_icon" src="./assets/img/github.svg"
+                alt="Logo do Github" />
+        </a>
+        <a href="https://www.instagram.com/viny_sl/" target="_blank">
+            <img class="social_icon" src="./assets/img/instagram.svg"
+                alt="Logo do Instagram" />
+        </a>
+    </div>
+    <br>
+    <br>
+    <footer class="center">
+        Desenvolvido por Vinicius Lima 👾 - 2024
+    </footer>
 </body>
 </html>

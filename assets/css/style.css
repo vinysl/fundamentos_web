@@ -11,6 +11,17 @@
     justify-content: center;
     align-items: center;
 }
+.menu_container {
+    height: 80px;       /* altura do elemento/tag*/
+
+    position: sticky;   /* Posição fixa no topo da tela*/
+    top: 0;             /* Posição no topo a esquerda */
+    width: 100%;        /* Usar todo o espaço disponivel */
+
+    background-color: var(--black-800);
+    border-bottom: 1px solid var(--purple-500);
+    filter: opacity(0.9);   /* permite que add um filtro, no caso a opacidade */
+}
 #menu li{
     display: inline;
     padding: 15px;
@@ -36,6 +47,51 @@
 .border{
     border: 5px;
     padding: 20px;
+}
+.social_icon {
+    width: 75px;
+    height: 75px;
+}
+.social_icon:hover {
+    filter: brightness(0) saturate(100%) invert(30%) sepia(8%) saturate(70%) hue-rotate(249deg) brightness(79%) contrast(60%);
+}
+input[type="text"] {
+    height: 10px; /* Altura da caixa de texto */
+    padding: 5px; /* Espaçamento interno da caixa de texto */
+}
+input[type="email"] {
+    height: 10px; /* Altura da caixa de texto */
+    padding: 5px; /* Espaçamento interno da caixa de texto */
+}
+
+button{
+    width: 60px;
+    height: 30px;
+}
+.flex{
+    display: flex;
+    /* Eixo Horizontal */
+    justify-content: center; 
+    /* Eixo Vertical */
+    align-items: center;
+}
+
+.social_container {
+    display: flex;
+    justify-content: center;  /* os elementos terão um espaço entre eles, e entre as bordas do container */
+    align-items: center;
+}
+
+.mapa_container{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+footer {
+    margin: 0;
+    padding: 32px;
+    font-weight: bold;
 }
 
 
